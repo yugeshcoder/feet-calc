@@ -62,7 +62,7 @@ td{
   opacity: 0.5;
 }
 input[list="name"]{
-  width:100px;
+  width:80px;
   border:none;
   color:red;
   text-align: center;
