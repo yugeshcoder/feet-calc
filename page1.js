@@ -329,7 +329,36 @@ let total = 0;
 document.getElementById("submit").onclick = function(){
   total = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
   document.getElementById("total").textContent = total;
+  document.getElementById("i1").textContent = "";
+  document.getElementById("i2").textContent = "";
+  document.getElementById("i3").textContent = "";
+  document.getElementById("i4").textContent = "";
+  document.getElementById("i5").textContent = "";
+  document.getElementById("i6").textContent = "";
+  document.getElementById("i7").textContent = "";
+  document.getElementById("i7").textContent = "";
+  document.getElementById("i8").textContent = "";
+  document.getElementById("i9").textContent = "";
+  document.getElementById("i10").textContent = "";
+  document.getElementById("i11").textContent = "";
+  document.getElementById("i12").textContent = "";
+  document.getElementById("i13").textContent = "";
+  document.getElementById("i14").textContent = "";
+  document.getElementById("i15").textContent = "";
+  document.getElementById("i16").textContent = "";
+  document.getElementById("i17").textContent = "";
+  document.getElementById("i18").textContent = "";
+  document.getElementById("i19").textContent = "";
+  document.getElementById("i20").textContent = "";
+  document.getElementById("i21").textContent = "";
+  document.getElementById("i22").textContent = "";
+  document.getElementById("i23").textContent = "";
+  document.getElementById("i24").textContent = "";
+  document.getElementById("i25").textContent = "";
+  document.getElementById("submit").textContent = "";
 }
+
+
 
 
 const btn = document.querySelector('.screenshot');

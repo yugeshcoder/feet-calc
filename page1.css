@@ -5,6 +5,8 @@
 }
 #total{
   display: inline-block;
+  margin-left:75px;
+  font-size: 2em;
 }
 .h1{
   margin-bottom: 5px;
@@ -17,6 +19,7 @@ th{
 }
 input{
   width:80px;
+  height: 30px;
 }
 section{
   position: relative;
@@ -26,6 +29,7 @@ button{
   left: 300px;
   background-color: rgb(34, 107, 65);
   color:white;
+  padding: 5px 10px;
 }
 #submit{
   display: inline-block;
@@ -35,6 +39,7 @@ button{
   padding: 5px;
   border-radius: 10px;
   margin-left: -100px;
+
 }
 .head{
   margin-bottom: 10px;
@@ -44,7 +49,7 @@ button{
 }
 td{
   border:1px solid grey;
-  border-collapse: collapse;
+  height: 30px;
 }
 .screenshot{
   margin-left: -90px ;
@@ -55,4 +60,19 @@ td{
 }
 .screenshot:active{
   opacity: 0.5;
+}
+input[list="name"]{
+  width:100px;
+  border:none;
+  color:red;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
+}
+input[list="model"]{
+  border:none;
+  color:red;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 20px;
 }

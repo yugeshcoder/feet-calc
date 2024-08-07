@@ -12,13 +12,46 @@
       <div class = "head">
         <label>Date:</label>
         <input type="date">
+        <label>Q:</label>
+        <select>
+          <option>&#8545;</option>
+          <option>&#x2160;</option>
+        </select>
         <button onclick="takescreenshot()"class="screenshot">Screenshot</button>
       </div>
       <div class="info">
-        <label>Model:</label>
-        <input type="text" id="model">
-        <label>Name:</label>
-        <input type="text" id="name">
+        <label>Model:
+          <input list="model" name="mymodel" /></label>
+          <datalist id="model">
+            <option value="1/2 * 1/2">
+            <option value="1*6">
+            <option value="35*10">
+            <option value="45*10">
+            <option value="35*6">
+            <option value="45*6">
+            <option value="AB 12*12">
+            <option value="AB 18*18">
+            <option value="AB 25*25">
+            <option value="AB 35*35">
+            <option value="AE 30*10">
+            <option value="AE 22*10">
+          </datalist>
+          <label>Name:
+            <input list="name" name="customername" /></label>
+            <datalist id="name">
+              <option value="T Bai">
+              <option value="P Bai">
+              <option value="mama">
+              <option value="V.D Timber">
+              <option value="Surender">
+              <option value="Vikram">
+              <option value="V Bai">
+              <option value="D Bai">
+              <option value="AB 25*25">
+              <option value="AB 35*35">
+              <option value="AE 30*10">
+              <option value="AE 22*10">
+            </datalist>
       </div>
       <tr>
         <th>FEET</th>
