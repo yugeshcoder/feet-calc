@@ -1,0 +1,57 @@
+
+#mob{
+  width: 300px;
+  background-color: rgb(162, 216, 235);
+}
+#total{
+  display: inline-block;
+}
+.h1{
+  margin-bottom: 5px;
+  margin-top: 0;
+  display: inline-block;
+  margin-left: 25px;
+}
+th{
+  padding: 0 0 0 15px;
+}
+input{
+  width:80px;
+}
+section{
+  position: relative;
+}
+button{
+  position: absolute;
+  left: 245px;
+  background-color: rgb(34, 107, 65);
+  color:white;
+}
+#submit{
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: -38px;
+  width: 93px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.head{
+  margin-bottom: 10px;
+}
+.info{
+  margin-bottom: 10px;
+}
+td{
+  border:1px solid grey;
+  border-collapse: collapse;
+}
+.screenshot{
+  margin-left: -30px ;
+  background-color: rgba(255, 0, 0, 0.726);
+  padding: 5px;
+  border:none;
+  border-radius: 10px;
+}
+.screenshot:active{
+  opacity: 0.5;
+}
