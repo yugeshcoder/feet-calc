@@ -1,7 +1,7 @@
 
 #mob{
   width: 315px;
-  background-color: rgb(162, 216, 235);
+  background-color: lightcyan;
 }
 #total{
   display: inline-block;
@@ -62,12 +62,13 @@ td{
   opacity: 0.5;
 }
 input[list="name"]{
-  width:80px;
+  width:90px;
   border:none;
   color:red;
   text-align: center;
   font-weight: bold;
   border-radius: 20px;
+  margin-right: 0;
 }
 input[list="model"]{
   border:none;
@@ -75,4 +76,7 @@ input[list="model"]{
   text-align: center;
   font-weight: bold;
   border-radius: 20px;
+}
+#namediv{
+  display: inline-block;
 }
