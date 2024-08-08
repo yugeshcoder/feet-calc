@@ -3,7 +3,7 @@ let showtotal = 0;
 
 let f1 = 8;
 let p1 = 0;
-let t1 = t2 = t3 = t4 = t5= t6 = t7= t8= t9= t10= t11= t12 =t13 =t14 =t15 = t16 = t17 =t18 = t19 =t20 =t21 =t22 =t23 =t24 =t25 =0;
+let t1 = t2 = t3 = t4 = t5= t6 = t7= t8= t9= t10= t11= t12 =t13 =t14 =t15 = t16 = t17 =t18 = t19 =t20 =t21 =t22 =t23 =t24 =t25 =t26 = t27 =t28 =t29 = 0;
 let i1 = 0;
 
 document.getElementById("s1").onclick = function(){
@@ -12,7 +12,7 @@ document.getElementById("s1").onclick = function(){
   document.getElementById("p1").textContent = p1;
   t1 = f1*p1;
   document.getElementById("t1").textContent = t1;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -22,12 +22,12 @@ document.getElementById('d1').onclick = function(){
   document.getElementById("p1").textContent = p1;
   t1 = f1*p1;
   document.getElementById("t1").textContent = t1;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
 
-let f2 = 7.79;
+let f2 = 7.75;
 let p2 = 0;
 let i2 = 0;
 
@@ -37,7 +37,7 @@ document.getElementById("s2").onclick = function(){
   document.getElementById("p2").textContent = p2;
   t2 = f2*p2;
   document.getElementById("t2").textContent = t2;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -48,7 +48,7 @@ document.getElementById("d2").onclick = function(){
   document.getElementById("p2").textContent = p2;
   t2 = f2*p2;
   document.getElementById("t2").textContent = t2;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -62,7 +62,7 @@ document.getElementById("s3").onclick = function(){
   document.getElementById("p3").textContent = p3;
   t3 = f3*p3;
   document.getElementById("t3").textContent = t3;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -72,7 +72,7 @@ document.getElementById("d3").onclick = function(){
   document.getElementById("p3").textContent = p3;
   t3 = f3*p3;
   document.getElementById("t3").textContent = t3;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -86,7 +86,7 @@ document.getElementById("s4").onclick = function(){
   document.getElementById("p4").textContent = p4;
   t4 = f4*p4;
   document.getElementById("t4").textContent = t4;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -96,7 +96,7 @@ document.getElementById("d4").onclick = function(){
   document.getElementById("p4").textContent = p4;
   t4 = f4*p4;
   document.getElementById("t4").textContent = t4;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -110,7 +110,7 @@ document.getElementById("s5").onclick = function(){
   document.getElementById("p5").textContent = p5;
   t5 = f5*p5;
   document.getElementById("t5").textContent = t5;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -120,7 +120,7 @@ document.getElementById("d5").onclick = function(){
   document.getElementById("p5").textContent = p5;
   t5 = f5*p5;
   document.getElementById("t5").textContent = t5;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -134,7 +134,7 @@ document.getElementById("s6").onclick = function(){
   document.getElementById("p6").textContent = p6;
   t6 = f6*p6;
   document.getElementById("t6").textContent = t6;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -144,7 +144,7 @@ document.getElementById("d6").onclick = function(){
   document.getElementById("p6").textContent = p6;
   t6 = f6*p6;
   document.getElementById("t6").textContent = t6;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -158,7 +158,7 @@ document.getElementById("s7").onclick = function(){
   document.getElementById("p7").textContent = p7;
   t7 = f7*p7;
   document.getElementById("t7").textContent = t7;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -168,7 +168,7 @@ document.getElementById("d7").onclick = function(){
   document.getElementById("p7").textContent = p7;
   t7 = f7*p7;
   document.getElementById("t7").textContent = t7;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -182,7 +182,7 @@ document.getElementById("s8").onclick = function(){
   document.getElementById("p8").textContent = p8;
   t8= f8*p8;
   document.getElementById("t8").textContent = t8;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -192,7 +192,7 @@ document.getElementById("d8").onclick = function(){
   document.getElementById("p8").textContent = p8;
   t8= f8*p8;
   document.getElementById("t8").textContent = t8;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -206,7 +206,7 @@ document.getElementById("s9").onclick = function(){
   document.getElementById("p9").textContent = p9;
   t9 = f9*p9;
   document.getElementById("t9").textContent = t9;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -216,7 +216,7 @@ document.getElementById("d9").onclick = function(){
   document.getElementById("p9").textContent = p9;
   t9 = f9*p9;
   document.getElementById("t9").textContent = t9;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -230,7 +230,7 @@ document.getElementById("s10").onclick = function(){
   document.getElementById("p10").textContent = p10;
   t10 = f10*p10;
   document.getElementById("t10").textContent = t10;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -240,7 +240,7 @@ document.getElementById("d10").onclick = function(){
   document.getElementById("p10").textContent = p10;
   t10 = f10*p10;
   document.getElementById("t10").textContent = t10;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -254,7 +254,7 @@ document.getElementById("s11").onclick = function(){
   document.getElementById("p11").textContent = p11;
   t11 = f11*p11;
   document.getElementById("t11").textContent = t11;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -264,7 +264,7 @@ document.getElementById("d11").onclick = function(){
   document.getElementById("p11").textContent = p11;
   t11 = f11*p11;
   document.getElementById("t11").textContent = t11;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -278,7 +278,7 @@ document.getElementById("s12").onclick = function(){
   document.getElementById("p12").textContent = p12;
   t12 = f12*p12;
   document.getElementById("t12").textContent = t12;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -288,7 +288,7 @@ document.getElementById("d12").onclick = function(){
   document.getElementById("p12").textContent = p12;
   t12 = f12*p12;
   document.getElementById("t12").textContent = t12;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -302,7 +302,7 @@ document.getElementById("s13").onclick = function(){
   document.getElementById("p13").textContent = p13;
   t13 = f13*p13;
   document.getElementById("t13").textContent = t13;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -312,7 +312,7 @@ document.getElementById("d13").onclick = function(){
   document.getElementById("p13").textContent = p13;
   t13 = f13*p13;
   document.getElementById("t13").textContent = t13;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -326,7 +326,7 @@ document.getElementById("s14").onclick = function(){
   document.getElementById("p14").textContent = p14;
   t14 = f14*p14;
   document.getElementById("t14").textContent = t14;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -336,7 +336,7 @@ document.getElementById("d14").onclick = function(){
   document.getElementById("p14").textContent = p14;
   t14 = f14*p14;
   document.getElementById("t14").textContent = t14;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -350,7 +350,7 @@ document.getElementById("s15").onclick = function(){
   document.getElementById("p15").textContent = p15;
   t15 = f15*p15;
   document.getElementById("t15").textContent = t15;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -360,7 +360,7 @@ document.getElementById("d15").onclick = function(){
   document.getElementById("p15").textContent = p15;
   t15 = f15*p15;
   document.getElementById("t15").textContent = t15;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -374,7 +374,7 @@ document.getElementById("s16").onclick = function(){
   document.getElementById("p16").textContent = p16;
   t16 = f16*p16;
   document.getElementById("t16").textContent = t16;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -384,7 +384,7 @@ document.getElementById("d16").onclick = function(){
   document.getElementById("p16").textContent = p16;
   t16 = f16*p16;
   document.getElementById("t16").textContent = t16;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -398,7 +398,7 @@ document.getElementById("s17").onclick = function(){
   document.getElementById("p17").textContent = p17;
   t17 = f17*p17;
   document.getElementById("t17").textContent = t17;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -408,7 +408,7 @@ document.getElementById("d17").onclick = function(){
   document.getElementById("p17").textContent = p17;
   t17 = f17*p17;
   document.getElementById("t17").textContent = t17;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -422,7 +422,7 @@ document.getElementById("s18").onclick = function(){
   document.getElementById("p18").textContent = p18;
   t18 = f18*p18;
   document.getElementById("t18").textContent = t18;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -432,7 +432,7 @@ document.getElementById("d18").onclick = function(){
   document.getElementById("p18").textContent = p18;
   t18 = f18*p18;
   document.getElementById("t18").textContent = t18;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -446,7 +446,7 @@ document.getElementById("s19").onclick = function(){
   document.getElementById("p19").textContent = p19;
   t19 = f19*p19;
   document.getElementById("t19").textContent = t19;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -456,7 +456,7 @@ document.getElementById("d19").onclick = function(){
   document.getElementById("p19").textContent = p19;
   t19 = f19*p19;
   document.getElementById("t19").textContent = t19;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -470,7 +470,7 @@ document.getElementById("s20").onclick = function(){
   document.getElementById("p20").textContent = p20;
   t20 = f20*p20;
   document.getElementById("t20").textContent = t20;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -480,7 +480,7 @@ document.getElementById("d20").onclick = function(){
   document.getElementById("p20").textContent = p20;
   t20 = f20*p20;
   document.getElementById("t20").textContent = t20;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -494,7 +494,7 @@ document.getElementById("s21").onclick = function(){
   document.getElementById("p21").textContent = p21;
   t21 = f21*p21;
   document.getElementById("t21").textContent = t21;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -504,7 +504,7 @@ document.getElementById("d21").onclick = function(){
   document.getElementById("p21").textContent = p21;
   t21 = f21*p21;
   document.getElementById("t21").textContent = t21;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -518,7 +518,7 @@ document.getElementById("s22").onclick = function(){
   document.getElementById("p22").textContent = p22;
   t22 = f22*p22;
   document.getElementById("t22").textContent = t22;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -528,7 +528,7 @@ document.getElementById("d22").onclick = function(){
   document.getElementById("p22").textContent = p22;
   t22 = f22*p22;
   document.getElementById("t22").textContent = t22;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -542,7 +542,7 @@ document.getElementById("s23").onclick = function(){
   document.getElementById("p23").textContent = p23;
   t23 = f23*p23;
   document.getElementById("t23").textContent = t23;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -552,7 +552,7 @@ document.getElementById("d23").onclick = function(){
   document.getElementById("p23").textContent = p23;
   t23 = f23*p23;
   document.getElementById("t23").textContent = t23;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -566,7 +566,7 @@ document.getElementById("s24").onclick = function(){
   document.getElementById("p24").textContent = p24;
   t24 = f24*p24;
   document.getElementById("t24").textContent = t24;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -576,7 +576,7 @@ document.getElementById("d24").onclick = function(){
   document.getElementById("p24").textContent = p24;
   t24 = f24*p24;
   document.getElementById("t24").textContent = t24;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -590,7 +590,7 @@ document.getElementById("s25").onclick = function(){
   document.getElementById("p25").textContent = p25;
   t25 = f25*p25;
   document.getElementById("t25").textContent = t25;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
@@ -600,13 +600,109 @@ document.getElementById("d25").onclick = function(){
   document.getElementById("p25").textContent = p25;
   t25 = f25*p25;
   document.getElementById("t25").textContent = t25;
-  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+let f26 = 9.0;
+let p26 = 0;
+let i26 = 0;
+
+document.getElementById("s26").onclick = function(){
+  i26 = Number(document.getElementById("n26").value);
+  p26 += i26;
+  document.getElementById("p26").textContent = p26;
+  t26 = f26*p26;
+  document.getElementById("t26").textContent = t26;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+document.getElementById("d26").onclick = function(){
+  i26 = Number(document.getElementById("n26").value);
+  p26 -= i26;
+  document.getElementById("p26").textContent = p26;
+  t26 = f26*p26;
+  document.getElementById("t26").textContent = t26;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+let f27 = 8.75;
+let p27 = 0;
+let i27 = 0;
+
+document.getElementById("s27").onclick = function(){
+  i27 = Number(document.getElementById("n27").value);
+  p27 += i27;
+  document.getElementById("p27").textContent = p27;
+  t27 = f27*p27;
+  document.getElementById("t27").textContent = t27;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+document.getElementById("d27").onclick = function(){
+  i27 = Number(document.getElementById("n27").value);
+  p27 -= i27;
+  document.getElementById("p27").textContent = p27;
+  t27 = f27*p27;
+  document.getElementById("t27").textContent = t27;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+let f28 = 8.5;
+let p28 = 0;
+let i28 = 0;
+
+document.getElementById("s28").onclick = function(){
+  i28 = Number(document.getElementById("n28").value);
+  p28 += i28;
+  document.getElementById("p28").textContent = p28;
+  t28 = f28*p28;
+  document.getElementById("t28").textContent = t28;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+document.getElementById("d28").onclick = function(){
+  i28 = Number(document.getElementById("n28").value);
+  p28 -= i28;
+  document.getElementById("p28").textContent = p28;
+  t28 = f28*p28;
+  document.getElementById("t28").textContent = t28;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+let f29 = 8.25;
+let p29 = 0;
+let i29 = 0;
+
+document.getElementById("s29").onclick = function(){
+  i29 = Number(document.getElementById("n29").value);
+  p29 += i29;
+  document.getElementById("p29").textContent = p29;
+  t29 = f29*p29;
+  document.getElementById("t29").textContent = t29;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
+  document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+}
+
+document.getElementById("d29").onclick = function(){
+  i29 = Number(document.getElementById("n29").value);
+  p29 -= i29;
+  document.getElementById("p29").textContent = p29;
+  t29 = f29*p29;
+  document.getElementById("t29").textContent = t29;
+  showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
 }
 
 let total = 0;
 document.getElementById("submit").onclick = function(){
-  total = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25;
+  total = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("total").textContent = total;
   document.getElementById("i1").textContent = "";
   document.getElementById("i2").textContent = "";
@@ -634,8 +730,13 @@ document.getElementById("submit").onclick = function(){
   document.getElementById("i23").textContent = "";
   document.getElementById("i24").textContent = "";
   document.getElementById("i25").textContent = "";
+  document.getElementById("i26").textContent = "";
+  document.getElementById("i27").textContent = "";
+  document.getElementById("i28").textContent = "";
+  document.getElementById("i29").textContent = "";
   document.getElementById("submit").textContent = "";
   document.getElementById("showtotal").textContent = "";
+  document.getElementById("fix").style.opacity = 0;
 }
 
 
@@ -664,11 +765,12 @@ let avg = 0;
   document.getElementById("4f").textContent = Math.round((avg * .2)/40);
   document.getElementById("3f").textContent = Math.round((avg * .2)/30);
 
-  document.getElementById("7p").textContent = Math.round((avg * .2)/70)*10;
-  document.getElementById("6p").textContent = Math.round((avg * .2)/60)*10;
-  document.getElementById("5p").textContent = Math.round((avg* .2)/50)*10;
-  document.getElementById("4p").textContent = Math.round((avg * .2)/40)*10;
-  document.getElementById("3p").textContent = Math.round((avg * .2)/30)*10;
+  document.getElementById("7p").textContent = (p26+p27+p28+p29+p1+p2+p3+p4+p5)/10;
+  document.getElementById("6p").textContent = (p6+p7+p8+p9)/10;
+  document.getElementById("5p").textContent = (p10+p11+p12+p13)/10;
+  document.getElementById("4p").textContent = (p14+p15+p16+p17)/10;
+  document.getElementById("3p").textContent = (p18+p19+p20+p21)/10;
+  
   }
 
   document.getElementById("s1b2").onclick = function(){
@@ -680,10 +782,21 @@ let avg = 0;
     document.getElementById("3f2").textContent = Math.round((avg * .2)/75);
     document.getElementById("2f2").textContent = Math.round((avg * .15)/50);
   
-    document.getElementById("7p2").textContent = Math.round((avg * .15)/175)*25;
-    document.getElementById("6p2").textContent = Math.round((avg * .15)/150)*25;
-    document.getElementById("5p2").textContent = Math.round((avg* .15)/125)*25;
-    document.getElementById("4p2").textContent = Math.round((avg * .2)/100)*25;
-    document.getElementById("3p2").textContent = Math.round((avg * .2)/75)*25;
-    document.getElementById("2p2").textContent = Math.round((avg * .15)/50)*25;
+    document.getElementById("7p2").textContent = (p26+p27+p28+p29+p1+p2+p3+p4+p5)/25;
+    document.getElementById("6p2").textContent = (p6+p7+p8+p9)/25;
+    document.getElementById("5p2").textContent = (p10+p11+p12+p13)/25;
+    document.getElementById("4p2").textContent = (p14+p15+p16+p17)/25;
+    document.getElementById("3p2").textContent = (p18+p19+p20+p21)/25;
+    document.getElementById("2p2").textContent = (p22+p23+p24+p25)/25;
     }
+
+    document.getElementById("s1b3").onclick = function(){
+      document.getElementById("7f3").textContent = `${Math.round(((t26+t27+t28+t29+t1+t2+t3+t4+t5)/showtotal)*100)}%`;
+      document.getElementById("6f3").textContent = `${Math.round(((t6+t7+t8+t9)/showtotal)*100)}%`;
+      document.getElementById("5f3").textContent = `${Math.round(((t10+t11+t12+t13)/showtotal)*100)}%`;
+      document.getElementById("4f3").textContent = `${Math.round(((t14+t15+t16+t17)/showtotal)*100)}%`;
+      document.getElementById("3f3").textContent = `${Math.round(((t18+t19+t20+t21)/showtotal)*100)}%`;
+      document.getElementById("2f3").textContent = `${Math.round(((t22+t23+t24+t25)/showtotal)*100)}%`;
+    }
+    
+    
