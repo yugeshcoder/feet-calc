@@ -736,7 +736,6 @@ document.getElementById("submit").onclick = function(){
   document.getElementById("i29").textContent = "";
   document.getElementById("submit").textContent = "";
   document.getElementById("showtotal").textContent = "";
-  document.getElementById("fix").style.opacity = 0;
 }
 
 

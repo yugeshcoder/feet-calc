@@ -92,30 +92,6 @@ input[type="date"]{
   background-color: rgba(180, 26, 26, 0.856);
 }
 
-#fix{
-  position: absolute;
-  background-color: black;
-  color:white;
-  font-size: 2rem;
-  width: 55px;
-  height: 76rem;
-  top: 7.6rem;
-  left: 2px;
-  opacity: 1;
-}
-
-.flex{
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  width: 51px;
-  height: 42px;
-  padding: 0px;
-  border: 2px solid black;
-}
-
-
-
 select{
   width: 50px;
   padding: 5px 0;
