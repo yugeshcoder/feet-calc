@@ -108,10 +108,18 @@ select{
 
 
 #additionInfo{
-  margin-left: 100px;
+  margin-left: 120px;
+  margin-top: 120px;
   width:300px;
   background-color: rgb(247, 212, 217);
+  padding-right: 100px;
+  padding-left: 20px;
 }
 .s2h1{
   text-align: center;
+}
+
+#s1b1,#s1b2{
+  margin-top: 5px;
+  border-radius: 6px;
 }
