@@ -42,10 +42,12 @@ button{
   display: inline-block;
   margin-top: 15px;
   width: 93px;
-  padding: 5px;
+  padding: 0px;
   border-radius: 10px;
   margin-left: -70px;
-
+  border: none;
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .head{
   margin-bottom: 10px;

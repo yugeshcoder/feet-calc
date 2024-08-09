@@ -887,6 +887,18 @@ document.getElementById("submit").onclick = function(){
     document.getElementById("r29").innerHTML="";
   }
 
+  let model = document.getElementById("mod").value;
+  document.getElementById("label1").innerHTML = `Model : <b style="font-size:1.5rem;">${model} </b>`;
+
+  let name = document.getElementById("nam").value;
+  document.getElementById("label2").innerHTML = ` Name : <b style="font-size:1.5rem;">${name} </b>`;
+
+  let date = document.getElementById("date").value;
+  document.getElementById("labeldate").innerHTML = ` Date : <b style="font-size:1.5rem;">${date} </b>`;
+
+  let q = document.getElementById("q").value;
+  document.getElementById("labelq").innerHTML = ` Q : <b style="font-size:1.5rem;">${q} </b>`;
+
 }
 
 

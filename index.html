@@ -11,19 +11,19 @@
     <section id="mob">
       <table>
         <div class = "head">
-          <label for="date">Date:</label>
-          <input id="date" type="date">
-          <label for="q">Q:</label>
-          <select id="q">
+          <label id="labeldate" for="date">Date:<input id="date" type="date"></label>
+          
+          <label id="labelq" for="q">Q: <select id="q">
             <option >&#8545;</option>
             <option>&#x2160;</option>
-          </select>
+          </select></label>
+         
           <button onclick="takescreenshot()"class="screenshot">Screenshot</button>
           <h1 id="showtotal"></h1>
         </div>
         <div class="info">
-          <label>Model:
-            <input list="model" name="mymodel" /></label>
+          <label id="label1">Model:
+            <input id ="mod" list="model" name="mymodel" /></label>
             <datalist id="model">
               <option value="1/2 * 1/2">
               <option value="1*6">
@@ -39,8 +39,8 @@
               <option value="AE 22*10">
             </datalist>
             <div id="namediv">
-            <label>Name:
-              <input list="name" name="customername" /></label>
+            <label id="label2">Name:
+              <input id="nam" list="name" name="customername" /></label>
               <datalist id="name">
                 <option value="T Bai">
                 <option value="P Bai">
