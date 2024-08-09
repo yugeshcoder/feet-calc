@@ -3,6 +3,10 @@
   position: relative;
 }
 
+table{
+  border-collapse: collapse;
+}
+
 #mob{
   width: 315px;
   background-color: lightcyan;
@@ -48,6 +52,7 @@ button{
 }
 .info{
   margin-bottom: 10px;
+  display: inline-block
 }
 td{
   border:1px solid grey;

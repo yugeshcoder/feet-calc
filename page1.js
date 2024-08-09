@@ -14,6 +14,7 @@ document.getElementById("s1").onclick = function(){
   document.getElementById("t1").textContent = t1;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n1").value = "";
 }
 
 document.getElementById('d1').onclick = function(){
@@ -24,6 +25,7 @@ document.getElementById('d1').onclick = function(){
   document.getElementById("t1").textContent = t1;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n1").value = "";
 }
 
 
@@ -39,6 +41,7 @@ document.getElementById("s2").onclick = function(){
   document.getElementById("t2").textContent = t2;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n2").value = "";
 }
 
 
@@ -50,6 +53,7 @@ document.getElementById("d2").onclick = function(){
   document.getElementById("t2").textContent = t2;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n2").value = "";
 }
 
 let f3 = 7.50;
@@ -64,6 +68,7 @@ document.getElementById("s3").onclick = function(){
   document.getElementById("t3").textContent = t3;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n3").value = "";
 }
 
 document.getElementById("d3").onclick = function(){
@@ -74,6 +79,7 @@ document.getElementById("d3").onclick = function(){
   document.getElementById("t3").textContent = t3;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n3").value = "";
 }
 
 let f4 = 7.25;
@@ -88,6 +94,7 @@ document.getElementById("s4").onclick = function(){
   document.getElementById("t4").textContent = t4;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n4").value = "";
 }
 
 document.getElementById("d4").onclick = function(){
@@ -98,6 +105,7 @@ document.getElementById("d4").onclick = function(){
   document.getElementById("t4").textContent = t4;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n4").value = "";
 }
 
 let f5 = 7.0;
@@ -112,6 +120,7 @@ document.getElementById("s5").onclick = function(){
   document.getElementById("t5").textContent = t5;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n5").value = "";
 }
 
 document.getElementById("d5").onclick = function(){
@@ -122,6 +131,7 @@ document.getElementById("d5").onclick = function(){
   document.getElementById("t5").textContent = t5;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n5").value = "";
 }
 
 let f6 = 6.75;
@@ -136,6 +146,7 @@ document.getElementById("s6").onclick = function(){
   document.getElementById("t6").textContent = t6;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n6").value = "";
 }
 
 document.getElementById("d6").onclick = function(){
@@ -146,6 +157,7 @@ document.getElementById("d6").onclick = function(){
   document.getElementById("t6").textContent = t6;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n6").value = "";
 }
 
 let f7 = 6.50;
@@ -160,6 +172,7 @@ document.getElementById("s7").onclick = function(){
   document.getElementById("t7").textContent = t7;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n7").value = "";
 }
 
 document.getElementById("d7").onclick = function(){
@@ -170,6 +183,7 @@ document.getElementById("d7").onclick = function(){
   document.getElementById("t7").textContent = t7;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n7").value = "";
 }
 
 let f8 = 6.25;
@@ -184,6 +198,7 @@ document.getElementById("s8").onclick = function(){
   document.getElementById("t8").textContent = t8;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n8").value = "";
 }
 
 document.getElementById("d8").onclick = function(){
@@ -194,6 +209,7 @@ document.getElementById("d8").onclick = function(){
   document.getElementById("t8").textContent = t8;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n8").value = "";
 }
 
 let f9 = 6.0;
@@ -208,6 +224,7 @@ document.getElementById("s9").onclick = function(){
   document.getElementById("t9").textContent = t9;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n9").value = "";
 }
 
 document.getElementById("d9").onclick = function(){
@@ -218,6 +235,7 @@ document.getElementById("d9").onclick = function(){
   document.getElementById("t9").textContent = t9;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n9").value = "";
 }
 
 let f10 = 5.75;
@@ -232,6 +250,7 @@ document.getElementById("s10").onclick = function(){
   document.getElementById("t10").textContent = t10;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n10").value = "";
 }
 
 document.getElementById("d10").onclick = function(){
@@ -242,6 +261,7 @@ document.getElementById("d10").onclick = function(){
   document.getElementById("t10").textContent = t10;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n10").value = "";
 }
 
 let f11 = 5.5;
@@ -256,6 +276,7 @@ document.getElementById("s11").onclick = function(){
   document.getElementById("t11").textContent = t11;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n11").value = "";
 }
 
 document.getElementById("d11").onclick = function(){
@@ -266,6 +287,7 @@ document.getElementById("d11").onclick = function(){
   document.getElementById("t11").textContent = t11;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n11").value = "";
 }
 
 let f12 = 5.25;
@@ -280,6 +302,7 @@ document.getElementById("s12").onclick = function(){
   document.getElementById("t12").textContent = t12;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n12").value = "";
 }
 
 document.getElementById("d12").onclick = function(){
@@ -290,6 +313,7 @@ document.getElementById("d12").onclick = function(){
   document.getElementById("t12").textContent = t12;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n12").value = "";
 }
 
 let f13 = 5.0;
@@ -304,6 +328,7 @@ document.getElementById("s13").onclick = function(){
   document.getElementById("t13").textContent = t13;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n13").value = "";
 }
 
 document.getElementById("d13").onclick = function(){
@@ -314,6 +339,7 @@ document.getElementById("d13").onclick = function(){
   document.getElementById("t13").textContent = t13;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n13").value = "";
 }
 
 let f14 = 4.75;
@@ -328,6 +354,7 @@ document.getElementById("s14").onclick = function(){
   document.getElementById("t14").textContent = t14;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n14").value = "";
 }
 
 document.getElementById("d14").onclick = function(){
@@ -338,6 +365,7 @@ document.getElementById("d14").onclick = function(){
   document.getElementById("t14").textContent = t14;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n14").value = "";
 }
 
 let f15 = 4.50;
@@ -352,6 +380,7 @@ document.getElementById("s15").onclick = function(){
   document.getElementById("t15").textContent = t15;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n15").value = "";
 }
 
 document.getElementById("d15").onclick = function(){
@@ -362,6 +391,7 @@ document.getElementById("d15").onclick = function(){
   document.getElementById("t15").textContent = t15;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n15").value = "";
 }
 
 let f16 = 4.25;
@@ -376,6 +406,7 @@ document.getElementById("s16").onclick = function(){
   document.getElementById("t16").textContent = t16;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n16").value = "";
 }
 
 document.getElementById("d16").onclick = function(){
@@ -386,6 +417,7 @@ document.getElementById("d16").onclick = function(){
   document.getElementById("t16").textContent = t16;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n16").value = "";
 }
 
 let f17 = 4.0;
@@ -400,6 +432,7 @@ document.getElementById("s17").onclick = function(){
   document.getElementById("t17").textContent = t17;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n17").value = "";
 }
 
 document.getElementById("d17").onclick = function(){
@@ -410,6 +443,7 @@ document.getElementById("d17").onclick = function(){
   document.getElementById("t17").textContent = t17;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n17").value = "";
 }
 
 let f18 = 3.75;
@@ -424,6 +458,7 @@ document.getElementById("s18").onclick = function(){
   document.getElementById("t18").textContent = t18;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n18").value = "";
 }
 
 document.getElementById("d18").onclick = function(){
@@ -434,6 +469,7 @@ document.getElementById("d18").onclick = function(){
   document.getElementById("t18").textContent = t18;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n18").value = "";
 }
 
 let f19 = 3.5;
@@ -448,6 +484,7 @@ document.getElementById("s19").onclick = function(){
   document.getElementById("t19").textContent = t19;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n19").value = "";
 }
 
 document.getElementById("d19").onclick = function(){
@@ -458,6 +495,7 @@ document.getElementById("d19").onclick = function(){
   document.getElementById("t19").textContent = t19;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n19").value = "";
 }
 
 let f20 = 3.25;
@@ -472,6 +510,7 @@ document.getElementById("s20").onclick = function(){
   document.getElementById("t20").textContent = t20;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n20").value = "";
 }
 
 document.getElementById("d20").onclick = function(){
@@ -482,6 +521,7 @@ document.getElementById("d20").onclick = function(){
   document.getElementById("t20").textContent = t20;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n20").value = "";
 }
 
 let f21 = 3.0;
@@ -496,6 +536,7 @@ document.getElementById("s21").onclick = function(){
   document.getElementById("t21").textContent = t21;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n21").value = "";
 }
 
 document.getElementById("d21").onclick = function(){
@@ -506,6 +547,7 @@ document.getElementById("d21").onclick = function(){
   document.getElementById("t21").textContent = t21;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n21").value = "";
 }
 
 let f22 = 2.75;
@@ -520,6 +562,7 @@ document.getElementById("s22").onclick = function(){
   document.getElementById("t22").textContent = t22;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n22").value = "";
 }
 
 document.getElementById("d22").onclick = function(){
@@ -530,6 +573,7 @@ document.getElementById("d22").onclick = function(){
   document.getElementById("t22").textContent = t22;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n22").value = "";
 }
 
 let f23 = 2.5;
@@ -544,6 +588,7 @@ document.getElementById("s23").onclick = function(){
   document.getElementById("t23").textContent = t23;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n23").value = "";
 }
 
 document.getElementById("d23").onclick = function(){
@@ -554,6 +599,7 @@ document.getElementById("d23").onclick = function(){
   document.getElementById("t23").textContent = t23;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n23").value = "";
 }
 
 let f24 = 2.25;
@@ -568,6 +614,7 @@ document.getElementById("s24").onclick = function(){
   document.getElementById("t24").textContent = t24;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n24").value = "";
 }
 
 document.getElementById("d24").onclick = function(){
@@ -578,6 +625,7 @@ document.getElementById("d24").onclick = function(){
   document.getElementById("t24").textContent = t24;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n24").value = "";
 }
 
 let f25 = 2.0;
@@ -592,6 +640,7 @@ document.getElementById("s25").onclick = function(){
   document.getElementById("t25").textContent = t25;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n25").value = "";
 }
 
 document.getElementById("d25").onclick = function(){
@@ -602,6 +651,7 @@ document.getElementById("d25").onclick = function(){
   document.getElementById("t25").textContent = t25;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n25").value = "";
 }
 
 let f26 = 9.0;
@@ -616,6 +666,7 @@ document.getElementById("s26").onclick = function(){
   document.getElementById("t26").textContent = t26;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n26").value = "";
 }
 
 document.getElementById("d26").onclick = function(){
@@ -626,6 +677,7 @@ document.getElementById("d26").onclick = function(){
   document.getElementById("t26").textContent = t26;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n26").value = "";
 }
 
 let f27 = 8.75;
@@ -640,6 +692,7 @@ document.getElementById("s27").onclick = function(){
   document.getElementById("t27").textContent = t27;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n27").value = "";
 }
 
 document.getElementById("d27").onclick = function(){
@@ -650,6 +703,7 @@ document.getElementById("d27").onclick = function(){
   document.getElementById("t27").textContent = t27;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n27").value = "";
 }
 
 let f28 = 8.5;
@@ -664,6 +718,7 @@ document.getElementById("s28").onclick = function(){
   document.getElementById("t28").textContent = t28;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n28").value = "";
 }
 
 document.getElementById("d28").onclick = function(){
@@ -674,6 +729,7 @@ document.getElementById("d28").onclick = function(){
   document.getElementById("t28").textContent = t28;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n28").value = "";
 }
 
 let f29 = 8.25;
@@ -688,6 +744,7 @@ document.getElementById("s29").onclick = function(){
   document.getElementById("t29").textContent = t29;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n29").value = "";
 }
 
 document.getElementById("d29").onclick = function(){
@@ -698,6 +755,7 @@ document.getElementById("d29").onclick = function(){
   document.getElementById("t29").textContent = t29;
   showtotal = t1+t2+t3+t4+t5+t6+t7+t8+t9+t10+t11+t12+t13+t14+t15+t16+t17+t18+t19+t20+t21+t22+t23+t24+t25+t26+t27+t28+t29;
   document.getElementById("showtotal").textContent = `Total:${showtotal}`;
+  document.getElementById("n29").value = "";
 }
 
 let total = 0;
@@ -736,6 +794,99 @@ document.getElementById("submit").onclick = function(){
   document.getElementById("i29").textContent = "";
   document.getElementById("submit").textContent = "";
   document.getElementById("showtotal").textContent = "";
+  
+  if(t1 == 0){
+    document.getElementById("r1").innerHTML="";
+  }
+  if(t2 == 0){
+    document.getElementById("r2").innerHTML="";
+  }
+  if(t3 == 0){
+    document.getElementById("r3").innerHTML="";
+  }
+  if(t4 == 0){
+    document.getElementById("r4").innerHTML="";
+  }
+  if(t5 == 0){
+    document.getElementById("r5").innerHTML="";
+  }
+  if(t6 == 0){
+    document.getElementById("r6").innerHTML="";
+  }
+  if(t7 == 0){
+    document.getElementById("r7").innerHTML="";
+  }
+  if(t8 == 0){
+    document.getElementById("r8").innerHTML="";
+  }
+  if(t9 == 0){
+    document.getElementById("r9").innerHTML="";
+  }
+  if(t10 == 0){
+    document.getElementById("r10").innerHTML="";
+  }
+  if(t11 == 0){
+    document.getElementById("r11").innerHTML="";
+  }
+  if(t12 == 0){
+    document.getElementById("r12").innerHTML="";
+  }
+  if(t13 == 0){
+    document.getElementById("r13").innerHTML="";
+  }
+  if(t1 == 0){
+    document.getElementById("r1").innerHTML="";
+  }
+  if(t14 == 0){
+    document.getElementById("r14").innerHTML="";
+  }
+  if(t15 == 0){
+    document.getElementById("r15").innerHTML="";
+  }
+  if(t16 == 0){
+    document.getElementById("r16").innerHTML="";
+  }
+  if(t17 == 0){
+    document.getElementById("r17").innerHTML="";
+  }
+  if(t18 == 0){
+    document.getElementById("r18").innerHTML="";
+  }
+  if(t19 == 0){
+    document.getElementById("r19").innerHTML="";
+  }
+  if(t20 == 0){
+    document.getElementById("r20").innerHTML="";
+  }
+  if(t21 == 0){
+    document.getElementById("r21").innerHTML="";
+  }
+  if(t22 == 0){
+    document.getElementById("r22").innerHTML="";
+  }
+  if(t23 == 0){
+    document.getElementById("r23").innerHTML="";
+  }
+  if(t24 == 0){
+    document.getElementById("r24").innerHTML="";
+  }
+  if(t25 == 0){
+    document.getElementById("r25").innerHTML="";
+  }
+
+  if(t26 == 0){
+    document.getElementById("r26").innerHTML="";
+  }
+  if(t27 == 0){
+    document.getElementById("r27").innerHTML="";
+  }
+  if(t28 == 0){
+    document.getElementById("r28").innerHTML="";
+  }
+  if(t29 == 0){
+    document.getElementById("r29").innerHTML="";
+  }
+
 }
 
 
